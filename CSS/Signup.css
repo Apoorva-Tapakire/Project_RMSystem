@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.form-container {
+    max-width: 800px; /* Set the maximum width of the box */
+    width: 100%; /* Make it responsive */
+    margin: 50px auto; /* Center the box horizontally and add some vertical margin */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input, .form-select, .form-button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-input:focus, .form-select:focus, .form-button:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  .form-button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-select {
+    background-color: #fff;
+  }
+  
+  .form-input {
+    background-color: #f9f9f9;
+  }
+  
+  /* Signup success message */
+  .signup-success {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-success a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-success a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message */
+  .error-text {
+    color: #ff4d4d;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,75 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+    background-color:rgb(243, 251, 253);
+  }
+  
+  /* Navbar container */
+  .navbar {
+    background-color: #533f3f;
+    padding: 20px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full-width navbar */
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Brand styling */
+  .navbar-brand {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-brand h2 {
+    margin: 5px;
+  }
+  
+  /* Links styling */
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    background-color: #555;
+  }
+  
+  /* Button styling */
+  .navbar-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-button:hover {
+    background-color: #e63939;
+  }
